@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Disallow private/admin pages if you have any (example)
+# Disallow: /admin/
+# Disallow: /drafts/
+
+# Point to sitemap
+Sitemap: https://grid-model-doctor.com/sitemap.xml
