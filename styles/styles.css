@@ -209,7 +209,6 @@ nav a:hover {
 
 /* Services Section */
 .services {
-    padding: 4rem 0;
     background: #f8f9fa;
 }
 
@@ -226,6 +225,7 @@ nav a:hover {
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s;
+    position: relative;
 }
 
 .service-card:hover {
@@ -256,6 +256,18 @@ nav a:hover {
     left: 0;
     color: #28a745;
     font-weight: bold;
+}
+
+.promo-bar {
+    background: linear-gradient(135deg, #ff6b6b, #f06595);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.4rem 0;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    border-radius: 10px 10px 0 0; /* match card’s top radius */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .price {
